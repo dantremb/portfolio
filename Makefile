@@ -22,7 +22,7 @@ COMMIT = $(shell date "+%d %B %T")
 
 git:
 	@echo "\n$G+---+---+---+---+---+---+---+---+---+---+---+---+"
-	@echo "$G|$C	$(NAME) uploading by Dantremb	$G|"
+	@echo "$G|$C	$(NAME) uploading by Dantremb		$G|"
 	@echo "$G+---+---+---+---+---+---+---+---+---+---+---+---+"
 	@git add .
 	@git commit -m "$(COMMIT)"
