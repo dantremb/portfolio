@@ -13,7 +13,13 @@
 # Nom du Projet
 NAME = portfolio
 
+R = $(shell tput -Txterm setaf 1)
+G = $(shell tput -Txterm setaf 2)
+C = $(shell tput -Txterm setaf 6)
+W = $(shell tput -Txterm setaf 7)
+
 COMMIT = $(shell date "+%d %B %T")
+
 git:
 	@echo "\n$G+---+---+---+---+---+---+---+---+---+---+"
 	@echo "$G|$C	$(NAME) uploading by Dantremb	$G|"
