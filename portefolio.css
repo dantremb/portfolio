@@ -6,50 +6,26 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 17:24:57 by dantremb          #+#    #+#             */
-/*   Updated: 2023/02/12 20:51:26 by dantremb         ###   ########.fr       */
+/*   Updated: 2023/02/12 22:48:54 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 body {
-	background-color: #000000;
-	background-image: url(assets/background.png);
-	background-repeat: no-repeat;
-	background-position: center top;
+	background-color: black;
 }
-.portefolio {
-	font: 11vmin "impact";
-	margin: 0px;
+
+.fire {
+	position: relative;
 	text-align: center;
-	color: #ffffff;
-}
-.button {
-	color: rgb(235, 220, 11);
-	font-size: 3vmin;
-	font-family: JetBrains Mono, monospace;
-	position: relative;
-	display: flex;
-	justify-content: flex-start;
-	max-width: 650px;
-	margin: 0 auto;
-	border: none;
-	background-color: transparent;
-	cursor: pointer;
-	
-}
-a {
-	text-decoration: none;
-}
-.slash {
-	position: relative;
-	top: 0;
-	transition: transform 0.3s ease-in-out;
-}
-.button:hover .slash {
-	transform: translate3d(20px, 0, 0);
-}
-.white {
-	color: #ffffff;
-}
-.white:hover {
-	color: rgb(141, 23, 156);
+	width: 100%;
+	color: #ffeb3b;
+	font-weight: 600;
+	font-size: 9em;
+	-webkit-box-reflect: below -120px linear-gradient;
+	text-shadow: 	0 0 10px #ff8c3b, 
+					0 0 40px #ff8c3b,
+					0 0 80px #ff8c3b,
+					0 0 160px #ff8c3b,
+					0 0 240px #ff8c3b;
+	filter: url(#fire);
 }
